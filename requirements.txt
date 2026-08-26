@@ -1,0 +1,22 @@
+# Requirements for NLP Preprocessing and Feature Engineering Pipeline
+# Run: pip install -r requirements.txt
+
+# Core Data Science & NLP
+pandas>=2.0.0
+numpy>=1.20.0
+scikit-learn>=1.2.0
+nltk>=3.8.0
+spacy>=3.5.0
+beautifulsoup4>=4.11.0
+
+# Graph & Network Analysis
+networkx>=3.0
+
+# Deep Learning & Embeddings
+# Note: gensim requires C++ Build Tools (MSVC compiler) to compile from source on Windows.
+# If compiling fails, the notebook will automatically switch to a built-in MockWord2Vec fallback.
+# gensim>=4.3.0
+
+# Transformers / Large Language Models
+torch>=2.0.0
+transformers>=4.28.0
