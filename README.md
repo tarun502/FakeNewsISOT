@@ -18,24 +18,6 @@ This repository contains a comprehensive Jupyter notebook for **fake news detect
 ```
 AI PROG NU/
 ├── modeling_comparison.ipynb          # Main notebook with full pipeline
-├── preprocessing_pipeline.ipynb       # Data preprocessing and feature engineering
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── True.csv                           # Dataset: Real news articles
-├── Fake.csv                           # Dataset: Fake news articles
-├── model_performance_metrics.csv      # Comparison results of all models
-│
-├── data/
-│   ├── train_processed.csv            # Processed training dataset
-│   └── test_processed.csv             # Processed testing dataset
-│
-└── features/
-    ├── knowledge_features_train.csv   # Engineered features for training data
-    ├── knowledge_features_test.csv    # Engineered features for testing data
-    ├── word_to_idx.json               # Word to index mapping
-    ├── word2vec_embedding.npy         # Word2Vec embeddings
-    ├── word2vec_train_padded.npy      # Padded Word2Vec embeddings (training)
-    └── word2vec_test_padded.npy       # Padded Word2Vec embeddings (testing)
 ```
 
 ---
